@@ -26,9 +26,7 @@ export function SiteHeader() {
     <header
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-300",
-        scrolled || open
-          ? "bg-ink/90 backdrop-blur-md border-b border-white/5"
-          : "bg-transparent",
+        scrolled || open ? "bg-ink/90 backdrop-blur-md border-b border-white/5" : "bg-transparent",
       )}
       style={{ backgroundColor: scrolled || open ? undefined : "transparent" }}
     >

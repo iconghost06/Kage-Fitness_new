@@ -19,25 +19,39 @@ export function SiteFooter() {
         </div>
 
         <div>
-          <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
-            Explore
-          </h3>
+          <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Explore</h3>
           <ul className="mt-4 space-y-2 text-sm text-white/70">
-            <li><Link to="/" className="hover:text-white">Home</Link></li>
-            <li><Link to="/about" className="hover:text-white">About</Link></li>
-            <li><Link to="/services" className="hover:text-white">Services</Link></li>
-            <li><Link to="/contact" className="hover:text-white">Contact</Link></li>
+            <li>
+              <Link to="/" className="hover:text-white">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="hover:text-white">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/services" className="hover:text-white">
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="hover:text-white">
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
 
         <div>
-          <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
-            Contact
-          </h3>
+          <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Contact</h3>
           <ul className="mt-4 space-y-3 text-sm text-white/70">
             <li className="flex items-center gap-2">
               <Phone className="size-4 text-gold" />
-              <a href="tel:+917200388808" className="hover:text-white">7200388808</a>
+              <a href="tel:+917200388808" className="hover:text-white">
+                7200388808
+              </a>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="size-4 text-gold" />
@@ -53,9 +67,7 @@ export function SiteFooter() {
         </div>
 
         <div>
-          <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
-            Follow
-          </h3>
+          <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Follow</h3>
           <a
             href="https://instagram.com"
             target="_blank"

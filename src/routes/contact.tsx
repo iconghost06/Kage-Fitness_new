@@ -185,11 +185,7 @@ function ContactPage() {
                       <FormItem>
                         <FormLabel>Message</FormLabel>
                         <FormControl>
-                          <Textarea
-                            rows={5}
-                            placeholder="Tell us about your goals…"
-                            {...field}
-                          />
+                          <Textarea rows={5} placeholder="Tell us about your goals…" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -217,13 +213,8 @@ function ContactPage() {
                   <li className="flex items-start gap-3">
                     <Phone className="mt-0.5 size-5 shrink-0 text-gold" />
                     <div>
-                      <div className="text-xs uppercase tracking-[0.2em] text-white/50">
-                        Phone
-                      </div>
-                      <a
-                        href="tel:+917200388808"
-                        className="text-base font-medium hover:text-gold"
-                      >
+                      <div className="text-xs uppercase tracking-[0.2em] text-white/50">Phone</div>
+                      <a href="tel:+917200388808" className="text-base font-medium hover:text-gold">
                         7200388808
                       </a>
                     </div>
@@ -231,9 +222,7 @@ function ContactPage() {
                   <li className="flex items-start gap-3">
                     <Mail className="mt-0.5 size-5 shrink-0 text-gold" />
                     <div>
-                      <div className="text-xs uppercase tracking-[0.2em] text-white/50">
-                        Email
-                      </div>
+                      <div className="text-xs uppercase tracking-[0.2em] text-white/50">Email</div>
                       <a
                         href="mailto:kagefitnessstudio10@gmail.com"
                         className="break-all text-base font-medium hover:text-gold"
@@ -245,9 +234,7 @@ function ContactPage() {
                   <li className="flex items-start gap-3">
                     <Clock className="mt-0.5 size-5 shrink-0 text-gold" />
                     <div>
-                      <div className="text-xs uppercase tracking-[0.2em] text-white/50">
-                        Hours
-                      </div>
+                      <div className="text-xs uppercase tracking-[0.2em] text-white/50">Hours</div>
                       <div className="text-base font-medium">Mon – Sun · 5:00 AM – 10:00 PM</div>
                     </div>
                   </li>
@@ -263,9 +250,7 @@ function ContactPage() {
                   <li className="flex items-start gap-3">
                     <Instagram className="mt-0.5 size-5 shrink-0 text-gold" />
                     <div>
-                      <div className="text-xs uppercase tracking-[0.2em] text-white/50">
-                        Follow
-                      </div>
+                      <div className="text-xs uppercase tracking-[0.2em] text-white/50">Follow</div>
                       <a
                         href="https://instagram.com"
                         target="_blank"

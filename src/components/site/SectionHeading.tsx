@@ -19,13 +19,7 @@ export function SectionHeading({
   className,
 }: Props) {
   return (
-    <div
-      className={cn(
-        "max-w-3xl",
-        align === "center" && "mx-auto text-center",
-        className,
-      )}
-    >
+    <div className={cn("max-w-3xl", align === "center" && "mx-auto text-center", className)}>
       {eyebrow && (
         <div
           className={cn(

@@ -111,9 +111,7 @@ function ServicesPage() {
                     to="/contact"
                     className={cn(
                       "mt-8 inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-xs font-semibold uppercase tracking-[0.2em] transition-colors",
-                      p.popular
-                        ? "bg-gold-gradient text-ink"
-                        : "bg-ink text-white hover:bg-ink/90",
+                      p.popular ? "bg-gold-gradient text-ink" : "bg-ink text-white hover:bg-ink/90",
                     )}
                   >
                     Enroll Now <ArrowRight className="size-3" />
@@ -248,8 +246,8 @@ function ServicesPage() {
                   <span className="text-gold-gradient font-display text-7xl">₹20,000</span>
                 </div>
                 <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-                  Train together, transform together. Full studio access for two with all
-                  classes and equipment included.
+                  Train together, transform together. Full studio access for two with all classes
+                  and equipment included.
                 </p>
                 <Link
                   to="/contact"
