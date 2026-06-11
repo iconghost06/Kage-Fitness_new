@@ -73,21 +73,25 @@ function HomePage() {
           </Reveal>
 
           <Reveal delay={0.1}>
-            <h1 className="mt-8 max-w-5xl font-display text-[clamp(3rem,9vw,8rem)] leading-[0.9] tracking-wide">
-              Building a stronger,
-              <br />
-              <span className="text-gold-gradient">healthier community.</span>
+            <h1 className="mt-8 max-w-5xl font-display text-[clamp(4rem,12vw,11rem)] leading-[0.85] tracking-widest uppercase">
+              KAGE
             </h1>
           </Reveal>
 
           <Reveal delay={0.2}>
-            <p className="mt-8 max-w-xl text-lg text-white/70">
+            <h3 className="mt-6 max-w-3xl font-display text-[clamp(1.5rem,3.5vw,2.5rem)] leading-tight tracking-wide text-white/95">
+              Building a stronger, <span className="text-gold-gradient">healthier community.</span>
+            </h3>
+          </Reveal>
+
+          <Reveal delay={0.3}>
+            <p className="mt-6 max-w-xl text-lg text-white/70">
               Kage Fitness Studio is where discipline meets transformation. Train with Coach Kamal
               Kumar and a team of 10+ specialists in a studio built for real progress.
             </p>
           </Reveal>
 
-          <Reveal delay={0.3}>
+          <Reveal delay={0.4}>
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Link
                 to="/contact"
