@@ -73,15 +73,15 @@ function HomePage() {
           </Reveal>
 
           <Reveal delay={0.1}>
-            <h1 className="mx-auto mt-8 max-w-5xl font-display text-[clamp(4rem,12vw,11rem)] leading-[0.85] tracking-widest uppercase">
+            <h1 className="text-gold-gradient mx-auto mt-8 max-w-5xl font-display text-[clamp(4rem,12vw,11rem)] leading-[0.85] tracking-widest uppercase">
               KAGE
             </h1>
           </Reveal>
 
           <Reveal delay={0.2}>
-            <h3 className="mx-auto mt-6 max-w-3xl font-display text-[clamp(1.5rem,3.5vw,2.5rem)] leading-tight tracking-wide text-white/95">
+            <h2 className="mx-auto mt-6 max-w-3xl font-display text-[clamp(1.5rem,3.5vw,2.5rem)] leading-tight tracking-wide text-white/95">
               Building a stronger, <span className="text-gold-gradient">healthier community.</span>
-            </h3>
+            </h2>
           </Reveal>
 
           <Reveal delay={0.3}>
