@@ -85,7 +85,7 @@ function HomePage() {
           </Reveal>
 
           <Reveal delay={0.3}>
-            <p className="mt-6 max-w-xl text-lg text-white/70">
+            <p className="mt-6 max-w-xl text-lg text-white/70 text-justify">
               Kage Fitness Studio is where discipline meets transformation. Train with Coach Kamal
               Kumar and a team of 10+ specialists in a studio built for real progress.
             </p>
