@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Instagram, Phone, Mail, Clock } from "lucide-react";
+import logoImg from "@/assets/logo.png";
 
 export function SiteFooter() {
   return (
@@ -7,12 +8,9 @@ export function SiteFooter() {
       <div className="gold-rule" />
       <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 md:grid-cols-4">
         <div>
-          <div className="flex items-baseline gap-2">
-            <span className="font-display text-2xl tracking-widest">KAGE</span>
-            <span className="text-gold-gradient font-display text-2xl tracking-widest">
-              FITNESS
-            </span>
-          </div>
+          <Link to="/" className="inline-block">
+            <img src={logoImg} alt="Kage Fitness" className="h-8 w-auto object-contain" />
+          </Link>
           <p className="mt-4 max-w-xs text-sm text-white/60">
             Building a stronger and healthier community since 2021.
           </p>
