@@ -13,7 +13,8 @@
     "preview": "vite preview",
     "start": "srvx serve --prod --entry dist/server/server.js --static dist/client",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
