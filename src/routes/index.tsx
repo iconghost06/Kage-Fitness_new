@@ -63,36 +63,36 @@ function HomePage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/70 to-ink/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-transparent" />
-
-        <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pt-32 pb-24">
+        <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pt-32 pb-24 flex flex-col items-center text-center">
           <Reveal>
-            <div className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.3em] text-gold">
+            <div className="flex items-center justify-center gap-3 text-xs font-semibold uppercase tracking-[0.3em] text-gold">
               <span className="h-px w-10 bg-gold-gradient" />
               Est. 2021 · Anna Nagar, Chennai
+              <span className="h-px w-10 bg-gold-gradient" />
             </div>
           </Reveal>
 
           <Reveal delay={0.1}>
-            <h1 className="mt-8 max-w-5xl font-display text-[clamp(4rem,12vw,11rem)] leading-[0.85] tracking-widest uppercase">
+            <h1 className="mx-auto mt-8 max-w-5xl font-display text-[clamp(4rem,12vw,11rem)] leading-[0.85] tracking-widest uppercase">
               KAGE
             </h1>
           </Reveal>
 
           <Reveal delay={0.2}>
-            <h3 className="mt-6 max-w-3xl font-display text-[clamp(1.5rem,3.5vw,2.5rem)] leading-tight tracking-wide text-white/95">
+            <h3 className="mx-auto mt-6 max-w-3xl font-display text-[clamp(1.5rem,3.5vw,2.5rem)] leading-tight tracking-wide text-white/95">
               Building a stronger, <span className="text-gold-gradient">healthier community.</span>
             </h3>
           </Reveal>
 
           <Reveal delay={0.3}>
-            <p className="mt-6 max-w-xl text-lg text-white/70 text-justify">
+            <p className="mx-auto mt-6 max-w-xl text-lg text-white/70">
               Kage Fitness Studio is where discipline meets transformation. Train with Coach Kamal
               Kumar and a team of 10+ specialists in a studio built for real progress.
             </p>
           </Reveal>
 
           <Reveal delay={0.4}>
-            <div className="mt-10 flex flex-wrap items-center gap-4">
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
               <Link
                 to="/contact"
                 className="group inline-flex items-center gap-2 rounded-full bg-gold-gradient px-7 py-4 text-sm font-semibold uppercase tracking-[0.2em] text-ink shadow-gold transition-transform hover:scale-[1.03]"
